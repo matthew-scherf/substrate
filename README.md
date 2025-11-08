@@ -25,17 +25,6 @@ lake exe cache get
 lake build SubstrateTheory
 ```
 
-### Re-verify
-
-```bash
-lean --make SubstrateTheory.lean
-```
-
-The project compiles without errors; all theorems are machine-verified up to `sorry` placeholders
-explicitly marked for future proof completion.
-
----
-
 ## 2 · Canonical Record (Ethereum Mainnet)
 
 **Contract**
