@@ -13,10 +13,6 @@ determines the quantum-classical transition, with gravity and quantum collapse e
 same mechanism. The formalization establishes universal grounding through a rank system and
 proposes information-theoretic interpretations of fundamental physical constants.
 
-## Repository Layout
-
-- Lean 4 project files (`lakefile.lean`, `lake-manifest.json`, `lean/` and/or `SubstrateTheory/`) — canonical formalization.
-- `onchain/Verification.md` — canonical on‑chain record and independent verification guide.
 
 ## Build & Verify (Lean 4)
 
