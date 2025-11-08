@@ -1,4 +1,4 @@
-# Substrate Theory — Canonical Repository
+# Substrate Theory 
 
 > This repository contains the canonical specification, the verbatim Lean 4 formalization, and the verified Ethereum on-chain record of *Substrate Theory*.
 
