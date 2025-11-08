@@ -1,25 +1,6 @@
-Excellent — confirmed:
-
-* ✅ **OnchainTextNFT (ERC-721)**
-  TX: [`0xe820a42226839735519c3eb12d46ae8d73d06c203c13b6caf38c065d6e2bc7b0`](https://etherscan.io/tx/0xe820a42226839735519c3eb12d46ae8d73d06c203c13b6caf38c065d6e2bc7b0)
-
-* ✅ **OnchainText (immutable text)**
-  TX: [`0xaf60585cb51e4eb289a0babf1fc3c66a17e3244ed26874fbfe505f8b433e916f`](https://etherscan.io/tx/0xaf60585cb51e4eb289a0babf1fc3c66a17e3244ed26874fbfe505f8b433e916f)
-
-* ✅ **Mint #1**
-  TX: [`0x8640dfaab67c13e031d794f35c3a678b74d2ec19ae9014f6bdca43879c33421c`](https://etherscan.io/tx/0x8640dfaab67c13e031d794f35c3a678b74d2ec19ae9014f6bdca43879c33421c)
-
----
-
-Here is your **final unified `README.md`**, precisely merged and minimally formatted.
-It retains your canonical abstract, Lean instructions, and all factual Ethereum verification data in one authoritative file.
-
----
-
-````markdown
 # Substrate Theory — Canonical Repository
 
-> This repository contains the canonical specification, the **verbatim** Lean 4 formalization, and the verified Ethereum on-chain record of *Substrate Theory – Canonical Edition*.
+> This repository contains the canonical specification, the verbatim Lean 4 formalization, and the verified Ethereum on-chain record of *Substrate Theory – Canonical Edition*.
 
 ---
 
@@ -102,7 +83,7 @@ cast keccak "0x$(xxd -p -c 999999 substrate.txt)"
 ## Academic Citation
 
 > Scherf, M. (2025). *Substrate Theory – Canonical Logical Specification (Ethereum On-Chain Reference).*
-> Contracts `0x31218c4d139e373c185732655658315f1892e1ae` and `0x9Af3B1e2986Ca245542EF135A24DcF691d57f2E9` (verified on Ethereum Mainnet).
+> Contracts `0x31218c4d139e373c185732655658315f1892e1ae` and `0x9Af3B1e2986Ca245542EF135A24DcF691d57f2E9` (Ethereum Mainnet).
 > Keccak-256 `0x552901c27d17488e6edea08f34db085f2959bcc8eb3f7f0c8869560c4f89ec09`.
 
 ---
@@ -114,9 +95,4 @@ cast keccak "0x$(xxd -p -c 999999 substrate.txt)"
 
 ---
 
-```
 
----
-
-Would you like me to include the brief **table of module counts and theorem categories** from the Lean formalization (Types, Axioms, Theorems, Bounds, etc.) beneath the abstract section for completeness, or keep this purely on-chain + build-related?
-```
