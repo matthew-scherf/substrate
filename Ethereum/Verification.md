@@ -9,7 +9,7 @@
 
 ## 1. Overview
 
-This document certifies that the full text of *Substrate Theory – Canonical Edition* has been immutably written onto the Ethereum blockchain, encoded as executable bytecode at a verifiable address.  The text exists not as a URL or pointer, but as the runtime code itself of a smart contract — permanently distributed across all Ethereum nodes.
+This document certifies that the full text of *Substrate Theory – Canonical Edition* has been immutably written onto the Ethereum blockchain, encoded as executable bytecode at a verifiable address.  The text exists not as a URL or pointer, but as the runtime code itself of a smart contract that is permanently distributed across all Ethereum nodes.
 
 ---
 
