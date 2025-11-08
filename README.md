@@ -53,5 +53,3 @@ cast keccak "0x$(xxd -p -c 999999 substrate.txt)"
 Cite the on‑chain canonical edition via the contract address and hash recorded in `onchain/Verification.md`.
 
 ---
-
-This repository is intentionally **maximally minimal**: only the canonical formal content and its verification pathways are included.
