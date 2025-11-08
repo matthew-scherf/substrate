@@ -1,6 +1,6 @@
 # Substrate Theory — Canonical Repository
 
-> This repository contains the canonical specification, the **verbatim** Lean 4 formalization, and an Ethereum on‑chain verification record. Language is taken **exactly** from the canonical sources without paraphrase.
+> This repository contains the canonical specification, the **verbatim** Lean 4 formalization, and an Ethereum on‑chain verification record. 
 
 ## Abstract (verbatim)
 
