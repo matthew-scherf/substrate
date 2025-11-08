@@ -40,7 +40,9 @@ explicitly marked for future proof completion.
 
 **Contract**
 [`0x0027af63Cd8e7De651671240220f2886fF7370d1`](https://etherscan.io/address/0x0027af63Cd8e7De651671240220f2886fF7370d1)
+
 **Function** `getText() → string`
+
 **Deployment Tx** [`0x0bfe8cd754bbcea80e679743f7efc3a97cb1aa47fdd0b3f69bed5abf56d063ff`](https://etherscan.io/tx/0x0bfe8cd754bbcea80e679743f7efc3a97cb1aa47fdd0b3f69bed5abf56d063ff)
 
 ### Retrieve canonical text
