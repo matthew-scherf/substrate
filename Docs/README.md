@@ -366,7 +366,7 @@ $\{K\textunderscore joint\textunderscore nonneg} : \forall es. 0 \leq \{K\textun
 $\{K\textunderscore joint\textunderscore nil} : \{K\textunderscore joint}([]) = 0$
 $\{K\textunderscore joint\textunderscore singleton} : \forall e. \{K\textunderscore joint}([e]) = K(e)$
 
-$\**compression\textunderscoreaxiom :**\$
+**compression_axiom :**
 $\forall es. (\forall e \in es. \{is\textunderscore presentation}(e)) \wedge es.\{length} \geq 2 \rightarrow$
 $$\{K\textunderscore joint}(es) < \{K\textunderscore sum}(es)$$
 
@@ -428,11 +428,11 @@ $\forall n, h. \{K\textunderscore LZ}(\{R\textunderscore Cohesion}(n, h)) \leq \
 
 ### TIME ARROW THEOREMS
 
-**time\textunderscorearrow\textunderscorereduction :**
+**time_arrow_rereduction :**
 $\forall \{hist}, n.$
 $$\{K\textunderscore LZ}(\{join}(\{mode}(\{join}(n)) :: \{hist})) \leq \{K\textunderscore LZ}(\{join}(\{hist})) + \{c\textunderscore time\textunderscore reduction}$$
 
-**time\textunderscorearrow\textunderscorecohesion :**
+**time_arrow_cohesion :**
 $\forall \{hist}, n, h.$
 $$\{K\textunderscore LZ}(\{join}(\{R\textunderscore Cohesion}(n, h) :: \{hist})) \leq \{K\textunderscore LZ}(\{join}(\{hist})) + \{c\textunderscore time\textunderscore cohesion}$$
 
