@@ -8,7 +8,7 @@ We present a complete formal system establishing quantum mechanics and general r
 
 ## 1. Verification (Lean 4)
  
-**Requirements:** Lean 4 (≥4.5), mathlib4, Lake.
+**Requirements:** Lean 4 (4.24.0), mathlib4, Lake.
 
 ```bash
 cd Verification/lean4/SubstrateTheory
