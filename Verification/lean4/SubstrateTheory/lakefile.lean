@@ -10,3 +10,6 @@ require mathlib from git
 @[default_target]
 lean_lib «SubstrateTheory» where
   globs := #[.submodules `SubstrateTheory]
+
+lean_exe «Substrate» where
+  root := `Main
