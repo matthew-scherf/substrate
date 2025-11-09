@@ -1,5 +1,7 @@
 # Substrate Theory 
 [![DOI](https://zenodo.org/badge/1092203081.svg)](https://doi.org/10.5281/zenodo.17563183)
+
+
 **Abstract.** 
 
 > We present a complete formal system establishing quantum mechanics and general relativity as computational regimes of a single substrate governed by algorithmic complexity thresholds. The theory is grounded in Kolmogorov complexity, formalized in Lean 4 across 21 modules totaling 5,300+ lines, and demonstrates convergence between ideal (noncomputable) and operational (computable) layers through eight bridge theorems. A critical complexity threshold at 50 bits determines the quantum–classical transition, with gravity and quantum collapse emerging as the same mechanism. The formalization establishes universal grounding through a rank system and proposes information-theoretic interpretations of fundamental physical constants.
