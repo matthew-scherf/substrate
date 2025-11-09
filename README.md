@@ -18,7 +18,7 @@ lake build
 ````
 ---
 
-## 2. Canonical On-Chain Record
+## 2. On-Chain Record
 
 - **Network:** Ethereum mainnet
 - **Contract:** `0xAc3E75445Ad35F4E902d5356F23B8aFadb772f6C`
