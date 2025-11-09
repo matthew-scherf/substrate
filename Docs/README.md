@@ -565,7 +565,7 @@ $\forall e. \{is\_ presentation}(e) \rightarrow \exists S.$
 $$S = k_B \cdot \log(2) \cdot K(e)$$
 
 **coherence\_participation\_invariant :**
-$\forall e. \{is\_ temporal\_ presentation}(e) \rightarrow \{coherent}(e) \rightarrow$
+$\forall e. \{is\_ temporal\textunderscore presentation}(e) \rightarrow \{coherent}(e) \rightarrow$
 $$0 < \{P\_ total}(e) \wedge \{Coh\_ trajectory}(e) = 1/\{P\_ total}(e)$$
 
 **joint\_le\_sum :**
