@@ -211,20 +211,20 @@ $$\{K\textunderscore cond}(\{indexed}(e, t_1), \{indexed}(e, t_2)) = \{K\textund
 
 ### AXIOM CONSEQUENCES
 
-**substrate\textunderscoreultimate\textunderscoreground :**
+**substrate_ultimate_ground :**
 $\forall e. \{is\textunderscore presentation}(e) \rightarrow \exists \{path.}$
 $$\{path.head} = \{Substrate} \wedge \{path.last} = e \wedge$$
 $$\forall i. i+1 < \{path.length} \rightarrow \{is\textunderscore grounded}(\{path}[i+1], \{path}[i])$$
 
-**decoherence\textunderscoreimplies\textunderscoreclassical :**
+**decoherence_implies_classical :**
 $\forall e. \{is\textunderscore presentation}(e) \wedge \neg\{coherent}(e) \rightarrow$
 $$\exists t_0. \forall t > t_0. \neg\{is\textunderscore quantum\textunderscore state}(\{indexed}(e, t))$$
 
-**measurement\textunderscorebreaks\textunderscorecoherence :**
+**measurement_underscorebreaks_coherence :**
 $\forall e_q, e_c.$
 $$\{is\textunderscore quantum\textunderscore state}(e_q) \wedge \{coherent}(e_q) \wedge \{emergent}(e_c, e_q) \rightarrow \neg\{coherent}(e_c)$$
 
-**indexed\textunderscorepreserves\textunderscorepresentation :**
+**indexed_preserves_presentation :**
 $\forall e, t. \{is\textunderscore presentation}(e) \rightarrow \{is\textunderscore presentation}(\{indexed}(e, t))$
 
 ---
@@ -284,8 +284,7 @@ $$\{R\textunderscore Cohesion}(n, h) := \{merge}(F(\{join}(n)), h)$$
 $\{R\textunderscore Reduction} : \{List KLZ.State} \rightarrow \{KLZ.State}$
 $$\{R\textunderscore Reduction}(n) := \{mode}(\{join}(n))$$
 
-$\{R\textunderscore G1} : \{List KLZ.State} \rightarrow \{KLZ.State} \rightarrow \{KLZ.State}$
-$$\{R\textunderscore G1}(n, h) := \begin{cases} \{R\textunderscore Cohesion}(n, h) & \{if } \{K\textunderscore LZ}(\{join}(n)) \leq \{c\textunderscore grounding} \\ \{R\textunderscore Reduction}(n) & \{otherwise} \end{cases}$$
+$\{R\textunderscore G1} : \{List KLZ.State} \rightarrow \{KLZ.State} \rightarrow \{KLZ.State}$ $$\{R\textunderscore G1}(n, h) := \begin{cases} \{R\textunderscore Cohesion}(n, h) & \{if } \{K\textunderscore LZ}(\{join}(n)) \leq \{c\textunderscore grounding} \\ \{R\textunderscore Reduction}(n) & \{otherwise} \end{cases}$$
 
 $\{coherent\textunderscore state} : \{KLZ.State} \rightarrow \{Prop}$
 $$\{coherent\textunderscore state}(s) := \{K\textunderscore LZ}(s) \leq \{c\textunderscore grounding}$$
