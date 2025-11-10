@@ -1,4 +1,4 @@
-# Substrate Theory  [![DOI](https://zenodo.org/badge/1092203081.svg)](https://doi.org/10.5281/zenodo.17563183)
+# Substrate Theory  
 >  $\{energy\textunderscore of}(e) = E_{Planck} \cdot K(e)$
 
 
@@ -52,3 +52,4 @@ Ethereum mainnet contract `0xAc3E75445Ad35F4E902d5356F23B8aFadb772f6C`.
 Formal verification: `https://github.com/matthew-scherf/Verification/`.
 DOI: 10.5281/zenodo.17563183
 ```
+[![DOI](https://zenodo.org/badge/1092203081.svg)](https://doi.org/10.5281/zenodo.17563183)
