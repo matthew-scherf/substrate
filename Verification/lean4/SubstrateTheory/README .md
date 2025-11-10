@@ -2,7 +2,7 @@
 
 ## Core Thesis
 
-Physical constants emerge from Kolmogorov complexity relationships between an ontologically minimal substrate (K(Substrate) = 0) and presentations. Energy-complexity correspondence (E = κK) unifies quantum mechanics, thermodynamics, and cosmology through information-theoretic grounding relations.
+Physical constants emerge from Kolmogorov complexity relationships between an ontologically minimal substrate ${(K(Substrate) = 0)}$ and presentations. Energy-complexity correspondence ${(E = κK)}$ unifies quantum mechanics, thermodynamics, and cosmology through information-theoretic grounding relations.
 
 ## Structure
 
