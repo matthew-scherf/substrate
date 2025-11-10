@@ -304,6 +304,7 @@ $$\forall n, h. {K\textunderscore LZ}(\text{join}(n)) > {c\textunderscore ground
 ${R\textunderscore G1\textunderscore preserves\textunderscore time\textunderscore arrow}$
 $$\forall \text{hist}, n, h. {K\textunderscore LZ}(\text{join}({R\textunderscore G1}(n, h)::\text{hist})) \leq {K\textunderscore LZ}(\text{join}(\text{hist})) + {c\textunderscore time}$$
 $$\text{where } {c\textunderscore time} := \max({c\textunderscore time\textunderscore reduction}, {c\textunderscore time\textunderscore cohesion})$$
+
 ---
 
 ### FUNDAMENTAL THEOREMS
