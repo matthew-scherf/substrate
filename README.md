@@ -1,6 +1,6 @@
-# $\ Substrate Theory - {energy\textunderscore of}(e) = E_{Planck} \cdot K(e)$
+# Substrate Theory  [![DOI](https://zenodo.org/badge/1092203081.svg)](https://doi.org/10.5281/zenodo.17563183)
+>  $\{energy\textunderscore of}(e) = E_{Planck} \cdot K(e)$
 
-[![DOI](https://zenodo.org/badge/1092203081.svg)](https://doi.org/10.5281/zenodo.17563183)
 
 
 **Abstract.** 
