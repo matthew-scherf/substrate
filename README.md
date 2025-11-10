@@ -1,12 +1,13 @@
 # $\text {Substrate Theory - &Omega; }$
 
-> $\text {This complete formal system establishes quantum mechanics and general relativity as computational regimes of a single substrate governed by algorithmic complexity thresholds. The theory is grounded in Kolmogorov complexity, formalized in Lean 4 across 21 modules totaling 5,300+ lines, and demonstrates convergence between ideal (noncomputable) and operational (computable) layers through eight bridge theorems. A critical complexity threshold at 50 bits determines the quantum–classical transition, with gravity and quantum collapse emerging as the same mechanism. The formalization establishes universal grounding through a rank system and proposes information-theoretic interpretations of fundamental physical constants.}$ ${energy\textunderscore of}(e) = E_{Planck} \cdot K(e)$
+> $\text {This complete formal system establishes quantum mechanics and general relativity as computational regimes of a single substrate governed by algorithmic complexity thresholds. The theory is grounded in Kolmogorov complexity, formalized in Lean 4 across 21 modules totaling 5,300+ lines, and demonstrates convergence between ideal (noncomputable) and operational (computable) layers through eight bridge theorems. A critical complexity threshold at 50 bits determines the quantum–classical transition, with gravity and quantum collapse emerging as the same mechanism. The formalization establishes universal grounding through a rank system and proposes information-theoretic interpretations of fundamental physical constants.}$
+> ${energy\textunderscore of}(e) = E_{Planck} \cdot K(e)$
 
 ---
 
 ## $\text { 1. Verification (Lean 4)}$
  
-**Requirements:** Lean 4 (4.24.0), mathlib4, Lake.
+$\text { **Requirements: Lean 4 (4.24.0), mathlib4, Lake.}$
 
 ```bash
 cd Verification/lean4/SubstrateTheory
@@ -16,13 +17,13 @@ lake build
 
 ## $\text { 2. On-Chain Record }$
 
-- **Network:** Ethereum mainnet
-- **Contract:** `0xAc3E75445Ad35F4E902d5356F23B8aFadb772f6C`
-- **Block:** 23760274
+- $\text {Network: Ethereum mainnet}$
+- $\text {Contract: `0xAc3E75445Ad35F4E902d5356F23B8aFadb772f6C`}$
+- $\text {Block: 23760274}$
  
-### Retrieve exact on-chain bytes and verify
+### $\text { Retrieve }$
 
-Foundry
+$\text { Foundry }$
 
 ```bash
 export RPC_URL="https://ethereum.publicnode.com"
