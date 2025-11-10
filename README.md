@@ -4,7 +4,7 @@
 
 ---
 
-## 1. Verification (Lean 4)
+## $\text { 1. Verification (Lean 4)}$
  
 **Requirements:** Lean 4 (4.24.0), mathlib4, Lake.
 
@@ -14,7 +14,7 @@ lake build
 ````
 ---
 
-## 2. On-Chain Record
+## $\text { 2. On-Chain Record }$
 
 - **Network:** Ethereum mainnet
 - **Contract:** `0xAc3E75445Ad35F4E902d5356F23B8aFadb772f6C`
@@ -40,7 +40,7 @@ xxd -p -c 999999 CANONICAL_REFERENCE.txt | cast keccak
 # Expected: 0x90147f16c543fe45a92a252340f20d055535a10f12eb43aab87eaa2a4879fbc0
 ```
 
-## 3. Citation
+## $\text { 3. Citation }$
 ```
 Scherf, M. (2025). *Substrate Theory*.
 Ethereum mainnet contract `0xAc3E75445Ad35F4E902d5356F23B8aFadb772f6C`.
