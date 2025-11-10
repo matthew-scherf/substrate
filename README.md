@@ -1,4 +1,4 @@
-# $\ Substrate Theory $ 
+# $\ Substrate Theory &Omega; $ 
 >  $\{energy\textunderscore of}(e) = E_{Planck} \cdot K(e)$
 
 
