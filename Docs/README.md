@@ -301,7 +301,7 @@ $$\forall n, h. {coherent\textunderscore state}(\text{join}(n)) \rightarrow {K\t
 ${R\textunderscore G1\textunderscore grounding\textunderscore reduction}$
 $$\forall n, h. {K\textunderscore LZ}(\text{join}(n)) > {c\textunderscore grounding} \rightarrow {K\textunderscore LZ}({R\textunderscore G1}(n, h)) < {K\textunderscore LZ}(\text{join}(n)) + {c\textunderscore grounding}$$
 
-**${R\textunderscore G1\textunderscore preserves\textunderscore time\textunderscore arrow}$**
+${R\textunderscore G1\textunderscore preserves\textunderscore time\textunderscore arrow}$
 $$\forall \text{hist}, n, h. {K\textunderscore LZ}(\text{join}({R\textunderscore G1}(n, h)::\text{hist})) \leq {K\textunderscore LZ}(\text{join}(\text{hist})) + {c\textunderscore time}$$
 $$\text{where } {c\textunderscore time} := \max({c\textunderscore time\textunderscore reduction}, {c\textunderscore time\textunderscore cohesion})$$
 ---
