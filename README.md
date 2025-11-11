@@ -1,6 +1,20 @@
 # $\text {Substrate Theory }$
 
-> This complete formal system establishes quantum mechanics and general relativity as computational regimes of a single substrate governed by algorithmic complexity thresholds. The theory is grounded in Kolmogorov complexity, formalized in Lean 4 across 21 modules, and demonstrates convergence between ideal (noncomputable) and operational (computable) layers through eight bridge theorems. A critical complexity threshold at 50 bits determines the quantum–classical transition, with gravity and quantum collapse emerging as the same mechanism. The formalization establishes universal grounding through a rank system and proposes information-theoretic interpretations of fundamental physical constants.   
+> “Substrate Theory”—for studies 
+informational complexity thresholds may delimit distinct computational regimes relevant
+to physical modeling. The framework separates (i) an ideal layer based on noncomputable
+Kolmogorov complexity, (ii) an operational layer based on a computable proxy (here,
+Lempel–Ziv complexity), and (iii) a bridge layer establishing provable relationships
+between the two. The central construct is a grounding threshold parameter Cground
+that is treated explicitly as a free, empirically constrainable quantity rather than a
+derived constant. Below Cground, the operational rules preserve informational coherence
+(reversible, history-preserving behavior); above Cground, they permit information-reducing
+updates. The entire system is mechanized in the Lean 4 theorem prover, providing
+machine-checked internal consistency of definitions and theorems. We do not claim a
+unification of existing physical theories nor derivations of fundamental constants from
+first principles. Instead, we offer a logically precise scaffold on which such hypotheses can
+be formulated, compared, and tested against experiment.
+   
 
 $$energy\textunderscore of(e) = E_{\text{Planck}} \cdot K(e)$$
 
