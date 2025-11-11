@@ -1,7 +1,7 @@
 # $\text {Substrate Theory }$
 
 > “Substrate Theory” studies 
-informational complexity thresholds may delimit distinct computational regimes relevant
+informational complexity thresholds that may delimit distinct computational regimes relevant
 to physical modeling. The framework separates (i) an ideal layer based on noncomputable
 Kolmogorov complexity, (ii) an operational layer based on a computable proxy (here,
 Lempel–Ziv complexity), and (iii) a bridge layer establishing provable relationships
