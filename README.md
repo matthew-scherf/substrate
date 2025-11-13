@@ -31,51 +31,7 @@ $\text {Requirements: Lean 4 (4.24.0), mathlib4, Lake.}$
 cd Verification/lean4/SubstrateTheory
 lake build
 ```
-
-$\text {Key modules:}$
-- $\text {SubstrateTheory.Core: Foundational axioms and types}$
-- ${SubstrateTheory.Topology: T\_STAB axiom and derivations}$
-- $\text {SubstrateTheory.Physics: Generation count and constants}$
-
----
-
-## $\text { 2. Topological Sector (T\_STAB)}$
-
-$\text {The T\_STAB axiom characterizes the substrate manifold through five consistency conditions:}$
-
-1. ${Dynamical Stability: } \forall t, K_{\text{topo}}(M(t)) = K_{\text{topo}}(M)$
-2. $\text {Topological Minimality: } M \text{ is Calabi-Yau with minimal } K_{\text{topo}}$
-3. $\text {Inseparability: } \text{score}(M) \geq 6.0$
-4. $\text {Spatial Coherence: } \chi(M) = -6$
-5. $\text {Grounding Support: } M \text{ compatible with universal grounding}$
-
-$\text {From these conditions:}$
-
-$$M_{\text{substrate}} \cong T^6/({\mathbb{Z}_3 \times \mathbb{Z}_3}) \text{ (resolved)}$$
-
-$\text {Topological complexity calculation:}$
-
-$$K_{\text{topo}} = K_{\text{base}} + K_{\text{orbifold}} + K_{\text{resolution}} + K_{\text{geometry}}$$
-$$= 3 + 4 + 10 + 40 = 57 \text{ bits}$$
-
-$\text {Generation count derivation:}$
-
-$$n_{\text{gen}} = \frac{|\chi|}{2} = \frac{|-6|}{2} = 3$$
-
----
-
-## $\text { 3. Falsification Criteria}$
-
-$\text {The theory makes four testable predictions:}$
-
-1. ${Generation Count: } n_{\text{gen}} = 3 \text{ exactly (no 4th generation)}$
-2. $\text {Quantum/Classical Threshold: } c_{\text{grounding}} = 57 \pm 10 \text{ bits}$
-3. $\text {Topology Uniqueness: } M_{\text{substrate}} \text{ is unique solution to T\_STAB}$
-4. $\text {Eigenvalue Spectrum: } \lambda \approx [0.21, 0.28, 0.64] \text{ (future work)}$
-
----
-
-## $\text { 4. On-Chain Record }$
+## $\text { 2. On-Chain Record }$
 
 - $\text {Network: Ethereum mainnet}$
 - $\text {Contract: 0xAc3E75445Ad35F4E902d5356F23B8aFadb772f6C }$
@@ -101,7 +57,7 @@ xxd -p -c 999999 CANONICAL_REFERENCE.txt | cast keccak
 
 ---
 
-## $\text { 5. Citation }$
+## $\text { 3. Citation }$
 ```
 Scherf, M. (2025). *Substrate Theory*.
 Ethereum mainnet contract `0xAc3E75445Ad35F4E902d5356F23B8aFadb772f6C`.
