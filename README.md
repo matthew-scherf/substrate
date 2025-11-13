@@ -6,8 +6,7 @@ to physical modeling. The framework separates (i) an ideal layer based on noncom
 Kolmogorov complexity, (ii) an operational layer based on a computable proxy (here,
 Lempel–Ziv complexity), and (iii) a bridge layer establishing provable relationships
 between the two. The central construct is a grounding threshold parameter $c_{\text{grounding}}$,
-now derived from the topological complexity of a unique substrate manifold rather than
-treated as a free parameter. The manifold is characterized by the T_STAB (Topological Stability)
+derived from the topological complexity of a unique substrate manifold. The manifold is characterized by the T_STAB (Topological Stability)
 axiom, which applies substrate consistency requirements to the topology itself. This yields
 $c_{\text{grounding}} = 57$ bits from calculable geometric invariants. Similarly, the fermion
 generation count $n_{\text{gen}} = 3$ follows deductively from the manifold's Euler characteristic
