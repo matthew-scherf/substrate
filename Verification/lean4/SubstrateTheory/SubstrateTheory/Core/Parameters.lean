@@ -3,7 +3,25 @@ import Mathlib
 
 namespace SubstrateTheory
 
-def c_grounding : ℝ := 50
+/-!
+# Grounding Constant
+
+The grounding constant is now DERIVED from topological considerations
+via the T_STAB axiom and topological complexity calculation.
+
+Historical note: Earlier formulations used c_grounding = 50 bits as an
+arbitrary parameter. The current value c_grounding = 57 bits is derived
+from K_topo(M_substrate), the algorithmic complexity of the substrate
+manifold T^6/(Z_3 × Z_3) resolved.
+
+See SubstrateTheory.Topology.Grounding for the complete derivation.
+-/
+
+/-- The grounding constant (derived from topology) -/
+def c_grounding : ℝ := 57
+
+/-- Historical value (pre-T_STAB, arbitrary choice) -/
+def c_grounding_historical : ℝ := 50
 
 axiom c : ℝ
 axiom c_value : c = 299792458
