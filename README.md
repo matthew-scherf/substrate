@@ -34,7 +34,7 @@ lake build
 
 $\text {Key modules:}$
 - $\text {SubstrateTheory.Core: Foundational axioms and types}$
-- $\text {SubstrateTheory.Topology: T\_STAB axiom and derivations}$
+- ${SubstrateTheory.Topology: T\_STAB axiom and derivations}$
 - $\text {SubstrateTheory.Physics: Generation count and constants}$
 
 ---
@@ -43,7 +43,7 @@ $\text {Key modules:}$
 
 $\text {The T\_STAB axiom characterizes the substrate manifold through five consistency conditions:}$
 
-1. $\text {Dynamical Stability: } \forall t, K_{\text{topo}}(M(t)) = K_{\text{topo}}(M)$
+1. ${Dynamical Stability: } \forall t, K_{\text{topo}}(M(t)) = K_{\text{topo}}(M)$
 2. $\text {Topological Minimality: } M \text{ is Calabi-Yau with minimal } K_{\text{topo}}$
 3. $\text {Inseparability: } \text{score}(M) \geq 6.0$
 4. $\text {Spatial Coherence: } \chi(M) = -6$
@@ -68,7 +68,7 @@ $$n_{\text{gen}} = \frac{|\chi|}{2} = \frac{|-6|}{2} = 3$$
 
 $\text {The theory makes four testable predictions:}$
 
-1. $\text {Generation Count: } n_{\text{gen}} = 3 \text{ exactly (no 4th generation)}$
+1. ${Generation Count: } n_{\text{gen}} = 3 \text{ exactly (no 4th generation)}$
 2. $\text {Quantum/Classical Threshold: } c_{\text{grounding}} = 57 \pm 10 \text{ bits}$
 3. $\text {Topology Uniqueness: } M_{\text{substrate}} \text{ is unique solution to T\_STAB}$
 4. $\text {Eigenvalue Spectrum: } \lambda \approx [0.21, 0.28, 0.64] \text{ (future work)}$
