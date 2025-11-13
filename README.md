@@ -1,6 +1,6 @@
-# $\text {Substrate Theory }$
+# $\text {Ground Theory }$
 
-> "Substrate Theory" studies 
+> "Ground Theory" studies 
 informational complexity thresholds that may delimit distinct computational regimes relevant
 to physical modeling. The framework separates (i) an ideal layer based on noncomputable
 Kolmogorov complexity, (ii) an operational layer based on a computable proxy (here,
@@ -12,9 +12,7 @@ axiom, which applies substrate consistency requirements to the topology itself. 
 $c_{\text{grounding}} = 57$ bits from calculable geometric invariants. Similarly, the fermion
 generation count $n_{\text{gen}} = 3$ follows deductively from the manifold's Euler characteristic
 via the Atiyah–Singer index theorem. The entire system is mechanized in the Lean 4 theorem prover,
-providing machine-checked internal consistency of definitions and theorems. We do not claim a
-complete unification of existing physical theories, but offer a logically precise scaffold on which
-such hypotheses can be formulated, compared, and tested against experiment.
+providing machine-checked internal consistency of definitions and theorems. 
    
 
 $$\text{energy\_of}(e) = E_{\text{Planck}} \cdot K(e)$$
@@ -113,14 +111,3 @@ DOI: 10.5281/zenodo.17563183
 [![DOI](https://zenodo.org/badge/1092203081.svg)](https://doi.org/10.5281/zenodo.17563183)
 
 ---
-
-## $\text { 6. Key Results}$
-
-$\text {Zero free parameters in topological sector:}$
-
-| $\text{Quantity}$ | $\text{Before}$ | $\text{After}$ | $\text{Source}$ |
-|---|---|---|---|
-| $c_{\text{grounding}}$ | $50 \text{ (free)}$ | $57 \text{ (derived)}$ | $K_{\text{topo}}(M_{\text{substrate}})$ |
-| $n_{\text{gen}}$ | $3 \text{ (axiom)}$ | $3 \text{ (theorem)}$ | $\|\chi\|/2$ |
-| $M_{\text{substrate}}$ | $\text{unspecified}$ | $T^6/\mathbb{Z}_3^2$ | $\text{T\_STAB unique solution}$ |
-
