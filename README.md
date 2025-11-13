@@ -15,7 +15,7 @@ via the Atiyah–Singer index theorem. The entire system is mechanized in the Le
 providing machine-checked internal consistency of definitions and theorems. 
    
 
-$$\text{energy\_of}(e) = E_{\text{Planck}} \cdot K(e)$$
+$$\{energy\_of}(e) = E_{\text{Planck}} \cdot K(e)$$
 
 $$c_{\text{grounding}} = K_{\text{topo}}(M_{\text{substrate}}) = 57 \text{ bits}$$
 
